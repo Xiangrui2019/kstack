@@ -2,9 +2,9 @@ package pool
 
 import (
 	"context"
-	"time"
 	"io"
 	"sync"
+	"time"
 )
 
 var _ Pool = &Slice{}
