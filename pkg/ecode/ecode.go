@@ -118,4 +118,3 @@ func Equal(a, b Codes) bool {
 func EqualError(code Codes, err error) bool {
 	return Cause(err).Code() == code.Code()
 }
-
